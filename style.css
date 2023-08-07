@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f5f5f7;
+}
+
+nav {
+    height: 70px;
+    background-color: aquamarine;
+}
+.logo-nav {
+    height: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo-nav img {
+    display: flex;
+    width: 100px;
+}
+
+.LogIn {
+    text-align: end;
+}
+
+.LogIn p {
+    margin-top: 25px;
+}
+
+.container {
+    padding: 5px;
+}
+
+.saleBanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: coral;
+    margin-top: 10px;
+    padding: 5px;
+    height: 90px;
+    gap: 10px;
+}
+
+.products {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+
+.products > div {
+    height: 50px;
+    background-color: dimgrey;
+    text-align: center;
+}
+
+.aboutCompany {
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutDetails {
+    background-color: crimson;
+    padding: 5px;
+    height: 300px;
+}
+
+.aboutDetails h1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutCompany img {
+    width: 500px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    background-color: olivedrab;
+    padding: 5px;
+}
